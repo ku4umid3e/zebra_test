@@ -10,13 +10,13 @@ YOLO_dataset/validation/
 
 # Веса моделей (оставляем только лучшие)
 runs/segment/train*/weights/last.pt
-runs/segment/train2/
-runs/segment/train3/
+
+
 runs/segment/train4/
 runs/segment/train5/
 runs/segment/train6/
 runs/segment/train7/
-runs/segment/train8/
+
 
 # Кэш файлы
 *.cache
@@ -58,3 +58,6 @@ runs/segment/predict7/
 # - Лучшие результаты (runs/segment/train/)
 # - Документацию (*.md)
 # - Несколько примеров изображений
+# Стандартная модель YOLO
+yolo11s-seg.pt
+

@@ -1,0 +1,9 @@
+names:
+- tea
+- meat
+- salad
+- soup
+nc: 4
+test: validation/images
+train: train/images
+val: validation/images
