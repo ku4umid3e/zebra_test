@@ -1,0 +1,60 @@
+# Большие датасеты (исключаем полностью)
+dataset/
+YOLO_dataset/train/
+YOLO_dataset/validation/
+
+# Исходные видео файлы
+*.mp4
+*.avi
+*.mov
+
+# Веса моделей (оставляем только лучшие)
+runs/segment/train*/weights/last.pt
+runs/segment/train2/
+runs/segment/train3/
+runs/segment/train4/
+runs/segment/train5/
+runs/segment/train6/
+runs/segment/train7/
+runs/segment/train8/
+
+# Кэш файлы
+*.cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи и временные файлы
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Большие изображения (кроме примеров)
+all_images/
+
+# Результаты предсказаний (кроме финальных)
+runs/segment/predict*/
+runs/segment/predict2/
+runs/segment/predict3/
+runs/segment/predict4/
+runs/segment/predict5/
+runs/segment/predict6/
+runs/segment/predict7/
+
+# Оставляем только:
+# - Код (*.py)
+# - Конфигурацию (*.yaml, requirements.txt)
+# - Лучшие результаты (runs/segment/train/)
+# - Документацию (*.md)
+# - Несколько примеров изображений
